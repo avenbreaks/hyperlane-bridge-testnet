@@ -1,8 +1,7 @@
-import { DiscordIcon, GithubIcon, HyperlaneLogo, TwitterIcon } from '@hyperlane-xyz/widgets';
+import { DiscordIcon, GithubIcon, TwitterIcon } from '@hyperlane-xyz/widgets';
 import Link from 'next/link';
 import { ReactNode } from 'react';
 import { links } from '../../consts/links';
-import { Color } from '../../styles/Color';
 
 type FooterLink = {
   title: string;
@@ -39,12 +38,11 @@ export function Footer() {
 function FooterLogo() {
   return (
     <div className="flex items-center justify-center">
-      <div className="ml-2 h-12 w-12 sm:h-14 sm:w-14">
-        <HyperlaneLogo color={Color.white} />
+      <div className="ml-2 h-12 w-1 sm:h-14 sm:w-14">
       </div>
-      <div className="ml-6 space-y-1 text-lg font-medium sm:text-xl">
-        <div>Go interchain</div>
-        <div>with Hyperlane</div>
+      <div className="ml-1 space-y-1 text-lg font-medium sm:text-xl">
+        <div>Bridge Chain</div>
+        <div></div>
       </div>
     </div>
   );
