@@ -25,7 +25,7 @@
     "@metamask/post-message-stream": "6.1.2",
     "@metamask/providers": "10.2.1",
     "@rainbow-me/rainbowkit": "^2.2.0",
-    "@sentry/nextjs": "^8.38.0",
+    "@sentry/nextjs": "^8.49.0",
     "@solana/spl-token": "^0.4.9",
     "@solana/wallet-adapter-base": "^0.9.22",
     "@solana/wallet-adapter-react": "^0.15.32",
